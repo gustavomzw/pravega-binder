@@ -5,7 +5,7 @@ Getting Started Pravega sample code and default properties as a Binder implement
 
 ## Sample Application
 
-The project consists of the Binder implementation and a simple Spring Cloud Stream example that reads messages from a Source channel named `input` and writes the contents back to a Source channel named `output`. 
+The project consists of the Binder implementation and a simple Spring Cloud Stream example that reads messages from a Sink channel named `input` and writes the contents back to a Source channel named `output`. 
 
 ```java
 @EnableBinding({Sink.class, Source.class})
