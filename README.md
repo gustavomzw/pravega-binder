@@ -1,4 +1,4 @@
-# Pravega SDLC Binder (Prototype)
+# Pravega SCDF Binder (Prototype)
 
 Spring Cloud Stream Binder to be used in a Spring Cloud Data Flow streaming data pipeline. This is a sample prototype that reuses the
 Getting Started Pravega sample code and default properties as a Binder implementation.
