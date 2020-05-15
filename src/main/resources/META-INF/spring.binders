@@ -1,0 +1,2 @@
+pravega:\
+io.pravega.binder.config.PravegaBinderConfiguration
