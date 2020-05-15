@@ -89,6 +89,6 @@ from Spring Cloud Stream. The Channel Binder binds the Producer and Consumer to 
 - Move the `StreamManager` code to the related Channel Provisioners
 - Create a Pravega autoconfiguration class for defaults customization and creation of the factory classes for injection
 - Understand and map the concurrency model of the Pravega Client to the Consumer and Producer implementations
-- Map additional Binder configuration properties to Pravega, such as reader groups and partitioning [https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/current/reference/html/spring-cloud-stream.html#_configuration_options]
+- Map additional Binder configuration properties to Pravega, such as reader groups and partitioning (https://cloud.spring.io/spring-cloud-static/spring-cloud-stream/current/reference/html/spring-cloud-stream.html#_configuration_options)
 - Create sample Spring Cloud Dataflow example
 - Add unit tests
