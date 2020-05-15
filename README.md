@@ -26,7 +26,7 @@ The `spring.cloud.stream.pravega.binder.*` properties configures the Controller 
 spring.cloud.stream.pravega.binder.uri=tcp://127.0.0.1:9090
 ```
 
-The `input` channel is mapped to the Pravega `iputStream` stream. The scope is configured using extended binder properties:
+The `input` channel is mapped to the Pravega `inputStream` stream. The scope is configured using extended binder properties:
 ```properties
 spring.cloud.stream.bindings.input.destination=inputStream
 spring.cloud.stream.pravega.bindings.input.consumer.scope=examples
@@ -80,7 +80,7 @@ them to the internal channel, working as a producer. The message handler receive
 them to the external stream, working as a consumer.  
 
 * `PravegaBinderConfiguration` - Spring Boot configuration class that injects the properties and create the main binder classes.
-* `AbstractMessageChannelBinder` - Main Binder implementation class that customizes the base `AbstractMessageChannelBinder` base implementation.
+* `PravegaMessageChannelBinder` - Main Binder implementation class that customizes the base `AbstractMessageChannelBinder` base implementation.
 from Spring Cloud Stream. The Channel Binder binds the Producer and Consumer to the Pravega custom implementation.
 * `PravegaMessageHandler` and `PravegaMessageProducer` - Binder implementation based in the Getting Started sample code.  
 
